@@ -1,0 +1,55 @@
+
+      
+    body {
+        height: 100vh;
+        margin: 0;
+        background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrF4N1GC9ZPfaIVGb3tdBe5s66RpJUe1xy3qvDcbH116MiWrllEnO8lkJVBxqTXsS6b3AAOXaOjMv6eEluUHEZwqH4XeUCLJo04Bsf6p02HUnqmeVaFC-VeMJTsy7SQIV9x75xvlUi5u_k/s1600/ARVORES+DE+NATAL+EM+PNG+E+GIFS+%25281%2529.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;  /* Impede a repetição da imagem */
+        font-family: Arial, sans-serif;
+    }
+
+    .letra{
+      width: 500px;
+      height: 200px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      opacity: 0.7;/*Valores: 0 (transparente) a 1(opaco)*/
+
+    }
+      .letra {
+        text-align: center;
+        margin-top: 20%;
+      }
+      
+      h1 {
+        font-size: 48px;
+        color: #008000; /* verde Natalino */
+        text-shadow: 2px 2px 2px #ccc;
+      }
+      
+      h2 {
+        font-size: 24px;
+        color: #fd0000;
+      }
+      
+      /* Efeitos de animação */
+      h1:hover {
+        transform: scale(1.1);
+      }
+      
+      h2 {
+        animation: piscar 2s infinite;
+      }
+      
+      @keyframes piscar {
+        0% { opacity: 1; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1; }
+      }
